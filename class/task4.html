@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,th,td,tr{
+        border: 1px solid black;
+    }
+    table{
+        border-spacing: 20px;
+    }
+    td,th,tr{
+       padding-top: 16px;
+       padding-bottom: 20px;
+       padding-left: 30px;
+       padding-right: 40px; 
+    }
+     tr :nth-of-type(1){
+        background-color: rgba(4, 136, 26, 0.74);
+     }
+     tr :nth-of-type(2){
+        background-color: rgb(33, 143, 5);
+     }
+     tr :nth-of-type(3){
+        background-color: rgba(13, 172, 184, 0.87);
+     }
+     tr :nth-of-type(4){
+        background-color: aquamarine;
+     }
+     tr :nth-of-type(5){
+        background-color: aqua;
+     }
+     tr :nth-of-type(6){
+        background-color: rgba(37, 221, 221, 0.836);
+     }
+
+</style>
+<body>
+    
+    <table>
+        <table style="width: 40%;">
+            
+
+        <tr>
+            <td>this</td>
+            <td>little</td>
+            <td>piggy</td>
+            <td>went</td>
+            <td>to</td>
+            <td>market</td>
+        </tr>
+        <tr>
+            <td colspan="2">this</td>
+            <td>little</td>
+            <td>piggy</td>
+            <td>went</td>
+            <td>to</td>
+            <!--<td>market</td>-->
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">this</td>
+            <td rowspan="2">little</td>
+            <td>piggy</td>
+            <!--<td>market</td>-->
+            <td rowspan="2">to</td>
+            <td rowspan="2">market</td>
+        </tr>
+        <tr>
+            <!--<td>this</td>-->
+            <!--<td>little</td>-->
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">this</td>
+            <td rowspan="2" >little</td>
+            <td>piggy</td>
+            <!--<td>went</td>-->
+            <td rowspan="2">to</td>
+            <td rowspan="2">market</td>
+        </tr>
+        <tr>
+            <!--<td>this</td>-->
+            <!--<td>little</td>-->
+            <!--<td>piggy</td>-->
+            <td>went</td>
+            <!--<td>to</td>-->
+            <!--<td>market</td>-->
+        </tr>
+        <tr>
+            <td>this</td>
+            <!--<td>little</td>-->
+            <td>piggy</td>
+            <td>went</td>
+            <td>to</td>
+            <td colspan="2">market</td>
+        </tr>
+    </table>
+</body>
+</html>
+ 
