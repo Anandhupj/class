@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(smartwatch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:(.active){
+    background-color: #111;
+}
+.active{
+    background-color: aquamarine;
+}
+
+.main h3{
+   color: white;
+   margin-top: 230px;
+   margin-left: 90px;
+   font-size: 18px;
+}
+h1{
+    color: rgb(124, 197, 5);
+    margin-left: 90ox;
+    font-size: 60px;
+}
+h4{
+    color: red;
+    margin-left: 90px;
+    font-size: 14px;
+    line-height: 40px;
+}
